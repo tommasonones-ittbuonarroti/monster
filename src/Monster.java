@@ -3,19 +3,21 @@ public class Monster {
     private float HP;
     private float danno;
 
-    public Monster(String nome, float HP) {
+    public Monster(String nome, float HP, float danno) {
         this.nome = nome;
         this.HP = HP;
+        this.danno=danno;
     }
 
-    float damage(){
+    public void damage(){
 
     }
 
-    void subisci(){
-
+    public void subisci(float danno){
+        HP -=danno;
     }
-    
+
+
     @Override
     public String toString() {
         return "Monster{" +
