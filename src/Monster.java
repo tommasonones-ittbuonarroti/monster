@@ -15,7 +15,6 @@ public class Monster {
     void subisci(){
 
     }
-
     
     @Override
     public String toString() {
