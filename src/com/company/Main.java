@@ -14,6 +14,8 @@ public class Main {
         Monster m2 = new Monster("badu",65);
 
 
+
+        
         while(scelta !=0){
             System.out.println("Chi vuoi fare lottare?");
             System.out.println("1)primo mostro");
