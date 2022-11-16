@@ -5,11 +5,13 @@ public class Weapon {
     private float dannoArma;
 
 
-    public Weapon(String nomeArma, float dannoArma) {
+    public Weapon(float dannoArma) {
         this.nomeArma = nomeArma;
         this.dannoArma = dannoArma;
     }
 
 
-    
+    public float getDannoArma() {
+        return dannoArma;
+    }
 }
