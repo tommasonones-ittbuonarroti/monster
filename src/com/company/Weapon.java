@@ -4,7 +4,8 @@ public class Weapon {
     private String nomeArma;
     private float dannoArma;
 
-      
+
+    
 
 
 
