@@ -9,12 +9,12 @@ public class Monster {
         this.danno=danno;
     }
 
-    public void damage(){
-
+    public String damage(){
+        return "Hai subito un danno di "+danno+"";
     }
 
-    public void subisci(float danno){
-        HP -=danno;
+    public void subisci(float dannoSubiti){
+        HP -= dannoSubiti;
     }
 
 
